@@ -32,7 +32,7 @@ The goal of this project is to explore stock market data, focusing on trading pa
 
 ---
 
-### 00. Business Case
+## 00. Business Case
 
 * Understand market behaviors and sector performance within the S\&P 500 index.
 * Identify trends and anomalies in stock prices, trading volume, and volatility.
@@ -41,7 +41,7 @@ The goal of this project is to explore stock market data, focusing on trading pa
 
 ---
 
-### 01. Data Collection
+## 01. Data Collection
 The data used in this project was sourced from various reputable platforms, including **Yahoo Finance**, **Wikipedia**, **Kaggle**, and additional **EXCEL** files provided. 
 Each source provided different types of data that were crucial for conducting a comprehensive analysis of the American stock market.
 
@@ -51,17 +51,55 @@ Each source provided different types of data that were crucial for conducting a 
   
 * **Wikipedia**: ( https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
   
-Data regarding company-specific information, such as sector classifications and business descriptions, was gathered from Wikipedia. This allowed for an analysis of stock performance at the sector level, providing insights into how different industries perform in the market.
+   Data regarding company-specific information, such as sector classifications and business descriptions, was gathered from Wikipedia. This allowed for an analysis 
+                of stock performance at the sector level, providing insights into how different industries perform in the market.
 
 * **Kaggle**:(https://www.kaggle.com/camnugent/sandp500)
   
-Kaggle datasets were used to obtain additional financial and operational data, such as revenue, profit, and other key metrics. Kaggle hosts a wide range of publicly available datasets, which are useful for in-depth financial and business analysis.
+   Kaggle datasets were used to obtain additional financial and operational data, such as revenue, profit, and other key metrics. Kaggle hosts a wide range of publicly 
+             available datasets, which are useful for in-depth financial and business analysis.
 
-* **Custom Excel Files**: Preprocessed tables for analysis
+* **Custom Excel Files**: Additional EXCEL files were used to complement the data from the mentioned sources.
+
+  These files contained preprocessed data specifically tailored for the project’s needs, including date dimension tables, GIO Fact, SP500 historical data, and financial fact data.
+---
+## 02. Data Overview
+o	**Stock Fact**: Contains data on stock prices, volume, and trading dates.
+
+o	**Security**: Contains information on the companies (e.g., sector, industry).
+
+o	**Fact Financial**: Includes financial performance metrics like revenue and profit.
+
+o	**SP500 Historical Data**: Provides historical stock performance data for the S&P 500.
+
+o	**GIO-Fact**: Offers additional financial and operational metrics.
+
+o	**Date Dim**: Contains date information for time-based analysis.
+
+### Overview on each Table:
+1-	**Fact Stock**
+
+The provided data appears to be stock market data for a specific stock symbol ("AAL" in this case), capturing daily trading details. 
+
+**Symbol**: The stock ticker symbol representing the company (AAL in this case, likely for American Airlines).
+
+**Stock_Date**: The date for each trading session, formatted as DD-MM-YY, indicating when the stock's performance was recorded.
+
+**Open**: The stock’s opening price at the start of the trading day.
+
+**High**: The highest price reached by the stock during the trading day.
+
+**Low**: The lowest price recorded for the stock during the trading day.
+
+**Close**: The stock’s price at the end of the trading day.
+
+**Volume**: The number of shares traded during the trading day.
+
+This dataset provides a time series of stock trading data, useful for analyzing trends in the stock's performance over time. It could be used to monitor price fluctuations, trading volume, and patterns in the stock’s daily movement.
+
 
 ---
-
-### 02. Data Cleaning
+### 03. Data Cleaning
 
 Performed in **Excel**:
 
