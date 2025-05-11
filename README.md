@@ -47,10 +47,16 @@ Each source provided different types of data that were crucial for conducting a 
 
 * **Yahoo Finance**: We get the data from yahoo finance by using a python code
   
-  ![Yahoo Finance Screenshot](https://github.com/mahaghonaim/Stock-Market/DataCollection/Yahoo Finance.PNG?raw=true)
+ ![Yahoo Finance Screenshot](https://github.com/MahaGhonaim/Stock-Market/blob/main/Data%20Collection/Yahoo%20Finance.PNG?raw=true)
   
-* **Wikipedia**: Company sector classifications
-* **Kaggle**: Financial metrics and company fundamentals
+* **Wikipedia**: ( https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+  
+Data regarding company-specific information, such as sector classifications and business descriptions, was gathered from Wikipedia. This allowed for an analysis of stock performance at the sector level, providing insights into how different industries perform in the market.
+
+* **Kaggle**:(https://www.kaggle.com/camnugent/sandp500)
+  
+Kaggle datasets were used to obtain additional financial and operational data, such as revenue, profit, and other key metrics. Kaggle hosts a wide range of publicly available datasets, which are useful for in-depth financial and business analysis.
+
 * **Custom Excel Files**: Preprocessed tables for analysis
 
 ---
