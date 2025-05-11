@@ -64,6 +64,7 @@ Each source provided different types of data that were crucial for conducting a 
   These files contained preprocessed data specifically tailored for the project’s needs, including date dimension tables, GIO Fact, SP500 historical data, and financial fact data.
 ---
 ## 02. Data Overview
+
 o	**Stock Fact**: Contains data on stock prices, volume, and trading dates.
 
 o	**Security**: Contains information on the companies (e.g., sector, industry).
@@ -76,43 +77,26 @@ o	**GIO-Fact**: Offers additional financial and operational metrics.
 
 o	**Date Dim**: Contains date information for time-based analysis.
 
-### Overview on each Table:
-1-	**Fact Stock**
-
-The provided data appears to be stock market data for a specific stock symbol ("AAL" in this case), capturing daily trading details. 
-
-**Symbol**: The stock ticker symbol representing the company (AAL in this case, likely for American Airlines).
-
-**Stock_Date**: The date for each trading session, formatted as DD-MM-YY, indicating when the stock's performance was recorded.
-
-**Open**: The stock’s opening price at the start of the trading day.
-
-**High**: The highest price reached by the stock during the trading day.
-
-**Low**: The lowest price recorded for the stock during the trading day.
-
-**Close**: The stock’s price at the end of the trading day.
-
-**Volume**: The number of shares traded during the trading day.
-
-This dataset provides a time series of stock trading data, useful for analyzing trends in the stock's performance over time. It could be used to monitor price fluctuations, trading volume, and patterns in the stock’s daily movement.
-
-
 ---
 ### 03. Data Cleaning
 
 Performed in **Excel**:
+  Data cleaning is an essential step to ensure that the dataset is accurate, consistent, and ready for analysis. Excel was used to clean and prepare the American stock market 
+  data. The cleaning process included removing duplicates, handling missing values, correcting data types, and ensuring uniform formatting across the dataset.
 
-* Corrected data types and formats
-* Handled null values and outliers
-* Split complex fields (e.g., date formatting)
-* Ensured accuracy and consistency across datasets
+**Cleaning Steps**
+1. Checking and Correcting Data Types
+2. Null Checks (Handling Missing Values)
+3. Outliers Detection and Treatment
+4. Splitting Columns by Comma (Date Formatting)
+5. Ensuring Data Accuracy
+
 
 ---
 
-### 03. Database Design
+## 03. Database Design
 
-**PostgreSQL** used for advanced analytical queries.
+**PostgreSQL** was used as the primary tool for executing analytical SQL queries on the datasets. Analytical SQL played a critical role in extracting meaningful insights from the stock market data, enabling deep exploration of stock price movements, trading volumes, sector-based performance, and financial metrics.
 
 **Tables:**
 
@@ -122,6 +106,10 @@ Performed in **Excel**:
 * `sp500_historical_data`: Daily index metrics
 * `gio_fact`: Economic indicators (gold, oil, interest rates)
 * `date_dim`: Date dimension table for time-based analysis
+
+###Tables Creation
+**Stock Fact**
+
 
 ---
 
