@@ -106,9 +106,32 @@ Performed in **Excel**:
 * `sp500_historical_data`: Daily index metrics
 * `gio_fact`: Economic indicators (gold, oil, interest rates)
 * `date_dim`: Date dimension table for time-based analysis
+  
+### Tables Creation
 
-###Tables Creation
 **Stock Fact**
+
+![Stock Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/stock.jpg?raw=true)
+
+**Security**
+
+![Security Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/security.jpg?raw=true)
+
+**Fact Financial**
+
+![Financial Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/financial.jpg?raw=true)
+
+**S&P500 Historical Data**
+
+![S&P 500 Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/s%26p500.jpg?raw=true)
+
+**GIO-Fact**
+
+![GIO Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/gio.jpg?raw=true)
+
+**Date Dim**
+
+![Date Dimension Table](https://github.com/MahaGhonaim/Stock-Market/blob/main/Tables%20Creation/date.jpg?raw=true)
 
 
 ---
