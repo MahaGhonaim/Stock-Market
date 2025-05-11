@@ -47,6 +47,8 @@ Each source provided different types of data that were crucial for conducting a 
 
 * **Yahoo Finance**: We get the data from yahoo finance by using a python code
   
+  ![Yahoo Finance Screenshot](https://github.com/mahaghonaim/stock-market/yahoo-finance.png?raw=true)
+  
 * **Wikipedia**: Company sector classifications
 * **Kaggle**: Financial metrics and company fundamentals
 * **Custom Excel Files**: Preprocessed tables for analysis
